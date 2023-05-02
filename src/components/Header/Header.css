@@ -1,22 +1,9 @@
-@keyframes hello80 {
+@keyframes hello {
   from {
     opacity: 0;
-    height: 1%;
   }
   to {
     opacity: 1;
-    height: 80%;
-  }
-}
-
-@keyframes hello95 {
-  from {
-    opacity: 0;
-    height: 1%;
-  }
-  to {
-    opacity: 1;
-    height: 95%;
   }
 }
 
@@ -33,7 +20,8 @@
 .header__flower {
   margin: calc(((100vh - 100px) - (80vh - 100px)) / 2) 0 0;
   object-fit: contain;
-  animation: hello80 3s forwards ease-out;
+  height: 80%;
+  animation: hello 3s forwards ease;
 }
 
 @media screen and (max-width: 1700px) {
@@ -42,7 +30,8 @@
   }
 
   .header__flower {
-    animation: hello95 3s forwards ease-out;
+    height: 95%;
+    animation: hello 3s forwards ease;
     margin: calc(((100vh - 100px) - (95vh - 70px)) / 2) 0 0;
   }
 }
@@ -53,7 +42,8 @@
   }
 
   .header__flower {
-    animation: hello95 3s forwards ease-out;
+    height: 95%;
+    animation: hello 3s forwards ease;
     margin: calc(((100vh - 100px) - (95vh - 60px)) / 2) 0 0;
   }
 }
@@ -64,8 +54,9 @@
   }
 
   .header__flower {
-    animation: hello80 3s forwards ease-out;
+    animation: hello 3s forwards ease;
     max-height: 95vw;
+    height: 80%;
     margin: calc(((100vh - 100px) - (95vh - 60px)) / 2) 0 0;
   }
 }
@@ -76,7 +67,8 @@
   }
 
   .header__flower {
-    animation: hello95 3s forwards ease-out;
+    height: 95%;
+    animation: hello 3s forwards ease;
     margin: calc(((100vh - 100px) - (80vh - 50px)) / 2) 0 0;
   }
 }
@@ -86,10 +78,10 @@
     height: 100vh;
   }
 
-
   .header__flower {
-    animation: hello80 3s forwards ease-out;
-    min-height: 50vh;
+    height: 80%;
+    animation: hello 3s forwards ease;
+    min-height: 60vh;
     margin: 20vh 0 0;
   }
 }
