@@ -1,0 +1,508 @@
+
+
+.info-date {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-date__invitation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.info-date__who {
+  width: 600px;
+  object-fit: contain;
+  margin: 100px 0 0;
+}
+
+.info-date__info {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 250px 0 0;
+}
+
+.info-date__description {
+  font-size: 34px;
+  line-height: 50px;
+  margin: 70px 0 0;
+  width: 60%;
+}
+
+.info-date__text {
+  font-size: 30px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.info-date__date {
+  color: #782379;
+  font-size: 60px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.info-date__block-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.info-date__where_position_left {
+  width: min-content;
+}
+
+.info-date__flower {
+  height: 700px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 0;
+  right: 200px;
+}
+
+.info-date__stone {
+  height: 1000px;
+  object-fit: contain;
+  position: absolute;
+  bottom: 200px;
+  left: -500px;
+  z-index: -1;
+}
+
+.info-date__place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.info-date__check-in {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 400px;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  padding: 150px 0;
+}
+
+.info-date__where {
+  height: 110px;
+  object-fit: contain;
+}
+
+.info-date__map {
+  width: 600px;
+  height: 600px;
+  margin: 0;
+  z-index: 3;
+}
+
+.info-date__with-map {
+  position: relative;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+}
+
+.info-date__flower-map {
+  position: absolute;
+  top: 0;
+  left: -220px;
+  height: 600px;
+  object-fit: contain;
+}
+
+.info-date__flower-map-white {
+  position: absolute;
+  top: 0;
+  right: -325px;
+  height: 500px;
+  object-fit: contain;
+}
+
+.info-date__text_position_right {
+  text-align: end;
+  font-size: 34px;
+  line-height: 50px;
+  margin: 30px 0 0;
+}
+
+.info-date__text_position_left {
+  text-align: start;
+  font-size: 34px;
+  line-height: 50px;
+  margin: 30px 0 0;
+}
+
+.info-date__text-nomargin {
+  margin: 0;
+}
+
+@media screen and (max-width: 1700px) {
+  .info-date__who {
+    width: 450px;
+    margin: 120px 0 30px;
+  }
+  
+  .info-date__text {
+    font-size: 26px;
+    line-height: 32px;
+    margin: 20px 0 0;
+    z-index: 5;
+  }
+
+  .info-date__description {
+    font-size: 26px;
+    line-height: 36px;
+    margin: 20px 0 0;
+    width: 70%;
+  }
+
+  .info-date__date {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .info-date__info {
+    gap: 30px;
+    margin: 70px 0 0;
+  }
+
+  .info-date__text_position_right {
+    font-size: 24px;
+  }
+  
+  .info-date__text_position_left {
+    font-size: 24px;
+  }
+  
+  .info-date__check-in {
+    gap: 300px;
+    height: 100vh;
+    padding: 0;
+  }
+
+  .info-date__where {
+    height: 85px;
+  }
+
+  .info-date__map {
+    width: 400px;
+    height: 400px;
+  }
+
+  .info-date__with-map {
+    height: 400px;
+  }
+
+  .info-date__flower-map {
+    left: -165px;
+    height: 450px;
+  }
+
+  .info-date__flower-map-white {
+    right: -245px;
+    height: 380px;
+  }
+
+  .info-date__stone {
+    height: 800px;
+    bottom: 0;
+    left: -400px;
+  }
+
+  .info-date__flower {
+    height: 450px;
+    bottom: -150px;
+    right: 50px;
+  }
+
+  .info-date__text-nomargin {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .info-date__who {
+    width: 430px;
+    margin: 100px 0 40px;
+  }
+
+  .info-date__invitation {
+    height: 100%;
+  }
+
+  .info-date__text {
+    font-size: 24px;
+    line-height: 30px;
+    margin: 10px 0 0;
+  }
+
+  .info-date__description {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 10px 0 0;
+    width: 65%;
+  }
+
+  .info-date__place {
+    gap: 150px;
+    padding-top: 200px;
+  }
+
+  .info-date__text_position_right {
+    font-size: 20px;
+  }
+  
+  .info-date__text_position_left {
+    font-size: 20px;
+  }
+
+  .info-date__info {
+    gap: 30px;
+    margin: 50px 0 0;
+  }
+  
+  .info-date__check-in {
+    gap: 150px;
+    padding: 0;
+    height: 100%;
+  }
+
+  .info-date__map {
+    width: 350px;
+    height: 350px;
+  }
+
+  .info-date__with-map {
+    height: 350px;
+  }
+
+  .info-date__flower-map {
+    left: -128px;
+    height: 350px;
+  }
+
+  .info-date__flower-map-white {
+    right: -190px;
+    height: 300px;
+    top: -20px;
+  }
+
+  .info-date__where {
+    height: 70px;
+  }
+
+  .info-date__stone {
+    height: 600px;
+    bottom: 0;
+    left: -300px;
+  }
+
+  .info-date__flower {
+    height: 350px;
+    bottom: -150px;
+    right: 50px;
+  }
+
+  .info-date__text-nomargin {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 1300px) and (orientation:portrait) {
+  .info-date__invitation {
+    max-height: 800px;
+  }
+
+  .info-date__info {
+    margin: 150px 0 0;
+  }
+
+  .info-date__check-in {
+    max-height: 800px;
+    gap: 110px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .info-date__who {
+    width: 300px;
+    margin: 30px 0 20px;
+  }
+
+  .info-date__description {
+    font-size: 20px;
+    line-height: 30px;
+    width: 70%;
+  }
+
+  .info-date__text {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  .info-date__text_position_right {
+    font-size: 18px;
+  }
+  
+  .info-date__text_position_left {
+    font-size: 18px;
+  }
+
+  .info-date__flower {
+    height: 300px;
+    right: -30px;
+  }
+  
+  .info-date__check-in {
+    gap: 130px;
+  }
+
+  .info-date__map {
+    width: 300px;
+    height: 300px;
+  }
+
+  .info-date__with-map {
+    height: 300px;
+  }
+
+  .info-date__flower-map {
+    left: -110px;
+    height: 300px;
+  }
+
+  .info-date__flower-map-white {
+    right: -175px;
+    height: 270px;
+    top: 0;
+  }
+
+  .info-date__where {
+    height: 60px;
+  }
+
+  .info-date__date {
+    font-size: 40px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .info-date__check-in {
+    flex-direction: column-reverse;
+    height: 100%;
+    padding: 50px 0;
+    gap: 40px;
+  }
+
+  .info-date__check-in_color_white {
+    flex-direction: column;
+  }
+
+  .info-date__text_position_right {
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .info-date__text_position_left {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .info-date__check-in_color_grey {
+    flex-direction: column-reverse;
+  }
+
+  .info-date__info {
+    flex-direction: column;
+    margin: 100px 0 0;
+    gap: 35px;
+  }
+
+  .info-date__place {
+    gap: 0;
+    padding-top: 50px;
+  }
+
+  .info-date__block-text {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .info-date__who {
+    width: 300px;
+    margin: 0 0 20px;
+  }
+
+  .info-date__where {
+    height: 45px;
+  }
+
+  .info-date__description {
+    font-size: 18px;
+    line-height: 28px;
+    width: 70%;
+  }
+
+  .info-date__check-in {
+    padding: 20px 0;
+  }
+
+  .info-date__where_position_left {
+    height: 55px;
+  }
+
+  .info-date__flower {
+    display: none;
+  }
+
+  .info-date__info {
+    margin: 80px 0 0;
+    gap: 20px;
+  }
+
+  .info-date__map {
+    width: 240px;
+    height: 240px;
+    transform: translateX(25px);
+  }
+
+  .info-date__map-left {
+    transform: translateX(-25px);
+  }
+
+  .info-date__with-map {
+    height: 240px;
+  }
+
+  .info-date__flower-map {
+    left: -63px;
+    height: 240px;
+  }
+
+  .info-date__flower-map-white {
+    right: -105px;
+    height: 200px;
+  }
+
+  .info-date__text {
+    margin: 15px 0 0;
+  }
+}

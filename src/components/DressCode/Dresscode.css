@@ -1,0 +1,164 @@
+.dresscode {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 0 0 150px;
+}
+
+.dresscode__header {
+  height: 100px;
+  object-fit: contain;
+  padding: 150px 0 0;
+}
+
+.dresscode__description {
+  font-size: 26px;
+  line-height: 40px;
+  width: 40%;
+  margin: 60px 0 0;
+}
+
+.dresscode__flowers {
+  height: 400px;
+  position: absolute;
+  top: 0;
+  right: 250px;
+}
+
+.dresscode__colors {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px 0;
+  min-width: 25%;
+}
+
+.dresscode__color {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  border: 1px solid rgba(53, 53, 53, 0.259);
+}
+
+.dresscode__color_var_one {
+  background-color: #917d85;
+}
+
+.dresscode__color_var_two {
+  background-color: #dfb7c6;
+}
+
+.dresscode__color_var_three {
+  background-color: #fdf4ed;
+}
+
+.dresscode__color_var_four {
+  background-color: #e1cebe;
+}
+
+.dresscode__color_var_five {
+  background-color: #666766;
+}
+
+@media screen and (max-width: 1700px) {
+  .dresscode {
+    height: 100%;
+    padding: 0;
+  }
+
+  .dresscode__description {
+    font-size: 26px;
+    line-height: 36px;
+    width: 50%;
+    margin: 70px 0 0;
+  }
+
+  .dresscode__header {
+    height: 90px;
+    padding: 130px 0 0;
+  }
+
+  .dresscode__colors {
+    min-width: 30%;
+  }
+
+  .dresscode__flowers {
+    height: 300px;
+    top: -20px;
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .dresscode {
+    padding: 80px 0;
+    height: 100%;
+  }
+
+  .dresscode__header {
+    height: 60px;
+    padding: 0;
+  }
+
+  .dresscode__description {
+    font-size: 24px;
+    line-height: 32px;
+    margin: 40px 0 0;
+    width: 40%;
+  }
+
+  .dresscode__colors {
+    margin: 30px 0 0;
+    gap: 20px;
+  }
+
+  .dresscode__color {
+    width: 55px;
+    height: 55px;
+  }
+
+  .dresscode__flowers {
+    height: 250px;
+    top: -20px;
+    right: 100px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .dresscode {
+    padding: 60px 0 70px;
+  }
+
+  .dresscode__header {
+    height: 50px;
+  }
+
+  .dresscode__cloud {
+    width: 400px;
+    height: 300px;
+    top: -150px;
+    left: 0;
+  }
+
+  .dresscode__description {
+    font-size: 18px;
+    line-height: 26px;
+    width: 80%;
+    margin: 30px 0 0;
+  }
+
+  .dresscode__colors {
+    margin: 30px 0 0;
+    gap: 15px;
+  }
+
+  .dresscode__color {
+    width: 37px;
+    height: 37px;
+  }
+
+  .dresscode__flowers {
+    display: none;
+  }
+}
