@@ -377,6 +377,7 @@
     width: 155px;
     height: 40px;
     font-size: 12px;
+    font-weight: bold;
   }
 
   .question__answer {
