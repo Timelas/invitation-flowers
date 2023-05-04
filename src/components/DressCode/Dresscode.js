@@ -1,11 +1,13 @@
 import React from "react";
 import dresscode from "../../images/DressCode.svg";
 import flowers from "../../images/dress.svg";
+import stone from "../../images/stone.png";
 import "./Dresscode.css";
 
 function Dresscode() {
   return (
     <section className="dresscode" id="dresscode">
+      <img className="dresscode__stone" alt="разводы" src={stone}></img>
       <img src={dresscode} alt="заголовок" className="dresscode__header"></ img>
       <img src={flowers} alt="цветы" className="dresscode__flowers"></ img>
       <p className="dresscode__description">Будем признательны, если вы поддержите цветовую гамму нашего праздника в своих нарядах:</p>

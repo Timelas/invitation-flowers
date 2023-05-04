@@ -81,7 +81,7 @@
   .header__flower {
     height: 80%;
     animation: hello 3s forwards ease;
-    min-height: 65vh;
-    margin: 20vh 0 0;
+    min-height: 70vh;
+    margin: 15vh 0 0;
   }
 }
