@@ -191,8 +191,7 @@
   
   .info-date__check-in {
     gap: 300px;
-    height: 100vh;
-    padding: 0;
+    padding: 150px 0 50px;
   }
 
   .info-date__where {

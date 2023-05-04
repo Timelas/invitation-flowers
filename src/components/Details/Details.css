@@ -92,9 +92,7 @@
   }
 
   .details__stone {
-    height: 600px;
-    top: 300px;
-    left: -300px;
+    display: none;
   }
 }
 
@@ -120,6 +118,7 @@
   }
 
   .details__stone {
+    display: block;
     height: 600px;
     top: 0;
     left: -300px;

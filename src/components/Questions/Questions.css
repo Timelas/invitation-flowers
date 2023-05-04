@@ -4,8 +4,7 @@
   align-items: center;
   padding: 150px 0;
   position: relative;
-  overflow: hidden;
-  background-color: white;
+  overflow: visible;
 }
 
 .question__flower {
@@ -14,7 +13,7 @@
   height: 1000px;
   transform: rotate(180deg);
   left: 0;
-  top: 300px;
+  top: 440px;
 }
 
 .question__container {
@@ -32,7 +31,7 @@
 
 .question__text {
   font-size: 30px;
-  line-height: 37px;
+  line-height: 40px;
   margin: 30px 0 0;
   width: 100%;
 }
@@ -176,7 +175,7 @@
 .question__answer {
   font-size: 20px;
   line-height: 37px;
-  margin: 10px 0;
+  margin: 70px 0;
 }
 
 @media screen and (max-width: 1700px) {
@@ -244,7 +243,7 @@
   .question__answer {
     font-size: 18px;
     line-height: 33px;
-    margin: 7px 0;
+    margin: 50px 0;
   }
 }
 
