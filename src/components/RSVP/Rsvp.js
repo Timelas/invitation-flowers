@@ -61,10 +61,9 @@ function Rsvp() {
     <section className="rsvp" id="rsvp">
       <img src={rsvp} alt="rsvp" className="rsvp__header"></ img>
       <img src={flowers} alt="цветы" className="rsvp__flowers"></ img>
-      <img className="rsvp__stone" alt="разводы" src={stone}></img>
       { isFormVisible ?
       <div className="rsvp__container">
-        <img className="rsvp__stone2" alt="разводы" src={stone}></img>
+        <img className="rsvp__stone" alt="разводы" src={stone}></img>
         <p className="rsvp__text">Пожалуйста, подтвердите ваше присутствие на нашем празднике до
         01 июня 2023 года любым удобным для вас способом или заполните форму ниже:
         </p>
@@ -78,8 +77,8 @@ function Rsvp() {
             <input type="number" min="0" max="10" name="Количество персон" id="person" required className="rsvp__input"></input>
           </p>
           <div className="rsvp__buttons">
-          <button className="rsvp__button" name="Принято" onClick={renderSubmitYes} disabled={loading ? true : false}>{loading ? "Отправка..." : "ПОДТВЕРДИТЬ"}</button>
-          <button className="rsvp__button" name="Отклонено" onClick={renderSubmitNo} disabled={loading ? true : false}>{loading ? "Отправка..." : "ОТКЛОНИТЬ"}</button>
+          <button className="rsvp__button" name="Принято" onClick={renderSubmitYes} disabled={loading ? true : false}>{loading ? "ОТПРАВКА..." : "ПОДТВЕРДИТЬ"}</button>
+          <button className="rsvp__button" name="Отклонено" onClick={renderSubmitNo} disabled={loading ? true : false}>{loading ? "ОТПРАВКА..." : "ОТКЛОНИТЬ"}</button>
           </div>
         </form>
       </div> :

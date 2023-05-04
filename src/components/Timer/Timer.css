@@ -35,7 +35,7 @@
 
 .timer__number {
   font-size: 28px;
-  color: #f6eadf;
+  color: #f4ede6;
   width: 72px;
   height: 72px;
   margin: 0;
@@ -127,13 +127,13 @@ background-color: #535f64;
   }
 
   .timer__bloks {
-    gap: 7px;
+    gap: 14px;
   }
 
   .timer__number {
-    font-size: 16px;
-    width: 45px;
-    height: 45px;
+    font-size: 18px;
+    width: 50px;
+    height: 50px;
   }
 
   .timer__text {

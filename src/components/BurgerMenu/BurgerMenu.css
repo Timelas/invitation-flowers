@@ -6,7 +6,7 @@
   right: 0;
   top: 0;
   width: 0%;
-  background-color: #eaeaea;
+  background-color: #f8e6ee;
   z-index: 3;
   height: 100vh;
   transition: visibility .5s, width .5s ease-in;

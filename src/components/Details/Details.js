@@ -1,11 +1,13 @@
 import React from "react";
 import details from "../../images/Details.svg";
 import flowers from "../../images/flowersDetails.svg";
+import stone from "../../images/stone.png";
 import "./Details.css";
 
 function Details() {
   return (
     <section className="details" id="details">
+      <img className="details__stone" alt="разводы" src={stone}></img>
       <img src={details} alt="детали" className="details__header"></ img>
       <img src={flowers} alt="цветы" className="details__flowers"></ img>
       <p className="details__text">Обратите внимание, что формат мероприятия не предполагают детской площадки и аниматоров. Пожалуйста, позаботьтесь

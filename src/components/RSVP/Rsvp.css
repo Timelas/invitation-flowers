@@ -97,15 +97,6 @@
 }
 
 .rsvp__stone {
-  height: 1000px;
-  object-fit: contain;
-  position: absolute;
-  bottom: 200px;
-  left: -500px;
-  z-index: -1;
-}
-
-.rsvp__stone2 {
   display: none;
 }
 
@@ -159,12 +150,6 @@
   .rsvp__flowers {
     height: 900px;
     top: -400px;
-  }
-  
-  .rsvp__stone {
-    height: 800px;
-    bottom: 100px;
-    left: -400px;
   }
 }
 
@@ -230,12 +215,6 @@
     height: 700px;
     top: -250px;
   }
-  
-  .rsvp__stone {
-    height: 600px;
-    bottom: 100px;
-    left: -300px;
-  }
 }
 
 @media screen and (max-width: 800px) {
@@ -298,14 +277,8 @@
   .rsvp__flowers {
     display: none;
   }
-  
-  .rsvp__stone {
-    height: 500px;
-    bottom: 650px;
-    left: -250px;
-  }
 
-  .rsvp__stone2 {
+  .rsvp__stone {
     display: block;
     position: absolute;
     transform: rotate(180deg);

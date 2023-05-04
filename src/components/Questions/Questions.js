@@ -71,7 +71,7 @@ function Questions() {
               <label htmlFor="alco" className="question__label-input">Пожелания по алкоголю:</label>
               <input type="text" name="Алкоголь" id="alco" required className="question__input"></input>
             </p>
-            <button type="submit" className="question__button" disabled={loading ? true : false}>{loading ? "Отправка..." : "ПОДТВЕРДИТЬ"}</button>
+            <button type="submit" className="question__button" disabled={loading ? true : false}>{loading ? "ОТПРАВКА..." : "ПОДТВЕРДИТЬ"}</button>
           </form> 
         </div>
         :
