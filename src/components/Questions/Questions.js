@@ -77,7 +77,7 @@ function Questions() {
         :
         <div>
           <img src={question} alt="опрос" className="question__header"></ img>
-          <p className="question__text">Форма отправлена!</p>
+          <p className="question__answer">Форма отправлена!</p>
         </div>
         }
     </section>

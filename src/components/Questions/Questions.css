@@ -173,6 +173,12 @@
   box-shadow: 0 0 5px #f8f7f0;
 }
 
+.question__answer {
+  font-size: 20px;
+  line-height: 37px;
+  margin: 10px 0;
+}
+
 @media screen and (max-width: 1700px) {
   .question {
     padding: 100px 0 0;
@@ -234,6 +240,12 @@
     font-size: 18px;
     height: 60px;
   }
+
+  .question__answer {
+    font-size: 18px;
+    line-height: 33px;
+    margin: 7px 0;
+  }
 }
 
 @media screen and (max-width: 1300px) {
@@ -289,6 +301,12 @@
     font-size: 22px;
     height: 45px;
     width: 400px;
+  }
+
+  .question__answer {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 15px 0 5px 0;
   }
 }
 
@@ -360,6 +378,11 @@
     width: 155px;
     height: 40px;
     font-size: 12px;
+  }
+
+  .question__answer {
+    font-size: 16px;
+    line-height: 22px;
   }
 }
 
